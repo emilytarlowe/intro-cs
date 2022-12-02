@@ -3,8 +3,6 @@ int g;
 int b;
 
 
-float a;
-float c;
 float x;
 float y;
 void setup() {
