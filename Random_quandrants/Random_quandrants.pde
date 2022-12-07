@@ -10,10 +10,6 @@ void setup() {
 }
 
 void draw() {
- // r = (int) random(0, 256);
- // g = (int) random(0, 256);
- // b = (int) random(0, 256);
-
 
   circle(x, y, 10);
  x = random(0, 600);
