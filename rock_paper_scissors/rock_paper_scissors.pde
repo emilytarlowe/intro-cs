@@ -10,17 +10,17 @@ void draw() {
   background(200);
   fill(255);
   if (userChoice == "Rock") {
-    fill(0, 255, 255);
+    fill(#008090);
   }
   rect(width / 3 - 100, 100, 100, 50);
   fill(255);
   if (userChoice == "Paper") {
-    fill(0, 0, 255);
+    fill(200, 100, 100);
   }
   rect(width / 3 + 50, 100, 100, 50);
   fill(255);
   if(userChoice == "Scissors") {
-    fill(255, 0, 0);
+    fill(204, 204, 255);
   }
   rect(width / 3 + 200, 100, 100, 50);
   fill(0);
@@ -30,7 +30,7 @@ void draw() {
 
   text("Computer", 300, 400);
   text(computerChoice, 300, 500);
-
+text("Choose one to play", 100, 90);
   
 if (userChoice == "Rock" && computerChoice == "Scissors") {
   text("You win!", 300, 200);
